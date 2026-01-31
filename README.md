@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-maxabs@deno/mod.js';
+import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-maxabs@v0.1.0-deno/mod.js';
 ```
 
 #### maxabs( x )
@@ -89,7 +89,7 @@ The function has the following parameters:
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-maxabs@deno/mod.js';
+import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-maxabs@v0.1.0-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
